@@ -24,7 +24,9 @@
   "homepage": "https://github.com/Diep-25/Nodejs_blog#readme",
   "dependencies": {
     "express": "^4.18.2",
-    "express-handlebars": "^7.1.2"
+    "express-handlebars": "^7.1.2",
+    "mongoose": "^7.4.3",
+    "slug": "^8.2.3"
   },
   "devDependencies": {
     "morgan": "^1.10.0",

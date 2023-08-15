@@ -1,0 +1,22 @@
+<div class="mt-4 mb-4">
+    <div class="container">
+        <h3 class="mb-4">Update</h3>
+        <form method="post" action="/news/store?id={{ news._id }}">
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Titile</label>
+                <input type="text" name="title" value="{{ news.title }}" class="form-control" required >
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Body</label>
+                <input type="text" name="body" value="{{ news.body }}" class="form-control" required >
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Image</label>
+                <input type="text" name="image" value="{{ news.image }}" class="form-control" required>
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Update</button>
+        </form>
+
+    </div>
+</div>
